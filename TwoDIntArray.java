@@ -38,7 +38,7 @@ public class TwoDIntArray
      *    
      *    @return  The sum of all integers in the array
      */
-    public int arraySum()
+    public int getSum()
     {
     }
 
@@ -47,7 +47,7 @@ public class TwoDIntArray
      *    
      *    @return the average of all integers in the array
      */
-    public double arrayAverage()
+    public double getAverage()
     {
     }
     
@@ -56,7 +56,7 @@ public class TwoDIntArray
      *    
      *    @return  the largest value in the 2D array
      */
-    public int maxValue ()
+    public int getMaxValue ()
     {
     }
     
@@ -65,13 +65,17 @@ public class TwoDIntArray
      *     
      *     @return  .... WHAT ????  How to do this?
      */
-    public int[] maxIndex ()
+    public int[] getMaxIndex ()
     {
     }
     
     public static void main (String[] args)
     {
         TwoDIntArray myArray = new TwoDIntArray();
-        System.out.print(myArray);
+        System.out.println(myArray);
+        System.out.println("The sum of the elements is " + myArray.getSum());
+        System.out.println("The average value is " + myArray.getAverage());
+        System.out.println("The largest element is " + myArray.getMaxValue() +
+           " in row " + " and column " );
     }
 }
